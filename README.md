@@ -1,5 +1,7 @@
 # we-vs-me – Usability Engineering Course Issue Tracker
 
+![](images/screenshot.png)
+
 ## 📋 About This Repository
 
 This is an **issues-only repository** for the Usability Engineering class. Students will use this repository to report usability issues, bugs, and observations while testing the **wevs.me** application.
