@@ -1,87 +1,93 @@
-# we-vs-me - Usability Engineering Course Issue Tracker
+# we-vs-me – Usability Engineering Course Issue Tracker
 
 ## 📋 About This Repository
 
 This is an **issues-only repository** for the Usability Engineering class. Students will use this repository to report usability issues, bugs, and observations while testing the **wevs.me** application.
 
-## 🎯 About wevs.me
+> **Note:** *wevs.me* is a prototype created via **vibe coding** (using Lovable and Codex).  
+> To read more about how and why the prototype was built this way — and the lessons I drew from it — check out my blog post:  
+> [Addictive Prototypes: What Vibe Coding with Lovable and Codex Taught Me](https://achmann.dev/addictive-prototypes-what-vibe-coding-with-lovable-and-codex-taught-me-7e01a40540ea)
 
-**wevs.me** is a questionnaire application created using vibe coding. The app allows users to:
+## 🎯 About *wevs.me*
 
-- Create custom questionnaires
-- Share questionnaires with others
-- Collect anonymous responses
-- Unlock results only after **k users** have answered the questionnaire
+**wevs.me** is a questionnaire app that allows users to:
 
-The unique feature of this app is that results remain hidden until a minimum threshold of participants has been reached, encouraging participation and creating a sense of anticipation.
+* Create and share short questionnaires
+* Collect anonymous answers
+* Unlock results only once **k participants** have responded
 
-## 📝 Homework Assignment
+This creates an element of anticipation — results stay hidden until enough people have taken part.
 
-As part of your first session homework, you are asked to:
+The app was developed as part of an experiment in *vibe coding*, where AI tools like ChatGPT and Lovable were used to build a working prototype quickly. You’ll hear more about this later in the semester — for now, your task is simply to explore it as a user.
 
-1. **Test the app**: Visit [wevs.me](https://wevs.me) and explore its functionality
-2. **Take qualitative notes**: While testing, document your observations about:
-   - User interface and user experience
-   - Navigation and workflow
-   - Any confusing elements or interactions
-   - Problems, bugs, or errors you encounter
-   - Suggestions for improvement
+## 📝 Homework: First Exploration
 
-3. **Create issues**: For any problems you encounter, create an issue in this repository
+1. **Visit the app:** Go to [wevs.me](https://wevs.me) and try it out freely.
+   There are no specific tasks — just explore as if you were a new user discovering the app for the first time.
 
-## 🐛 How to Create an Issue
+2. **Take notes:** Write down your impressions and observations.
+   You might comment on:
 
-When you encounter a problem or have an observation to report:
+   * What feels intuitive or confusing
+   * What works well or breaks
+   * Anything unexpected or unclear
+   * Ideas or wishes for improvement
 
-1. Click on the **"Issues"** tab at the top of this repository
-2. Click the green **"New Issue"** button
-3. Provide a clear, descriptive title
-4. In the description, include:
-   - **What you were trying to do**: Describe the task or action you were attempting
-   - **What happened**: Describe the actual behavior or problem
-   - **What you expected**: Describe what you thought should happen
-   - **Steps to reproduce**: List the exact steps to recreate the issue
-   - **Screenshots** (if applicable): Add images to help illustrate the problem
-   - **Device/Browser info**: Mention what device and browser you were using
+3. **Create GitHub Issues:**
+   For each observation or problem:
 
-5. Click **"Submit new issue"**
+   * Click **“Issues” → “New Issue”**
+   * Add a short, descriptive title
+   * In the description, include:
+
+     * **What you tried to do**
+     * **What happened**
+     * **What you expected**
+     * (Optional) steps to reproduce, screenshots, browser info
+
+4. **Engage with others:**
+   💬 Read a few issues by other students and **add short comments** — for example, if you:
+
+   * Experienced the same issue
+   * Have a different perspective
+   * Can suggest a small improvement
+
 
 ## 💡 Example Issue Format
 
 ```
-Title: Cannot submit questionnaire after filling all fields
+Title: Confusing layout when creating a new questionnaire
 
 Description:
 **What I was trying to do:**
-I created a questionnaire with 5 questions and tried to publish it.
+Create a new questionnaire after logging in.
 
 **What happened:**
-When I clicked the "Publish" button, nothing happened. The button seemed to be unresponsive.
+The “Create” button was easy to find, but I wasn’t sure where to add my first question.
 
 **What I expected:**
-The questionnaire should be published and I should receive a shareable link.
+A clear starting point or a “+ Add question” hint.
 
 **Steps to reproduce:**
-1. Go to wevs.me
-2. Click "Create Questionnaire"
-3. Add 5 questions
-4. Click "Publish" button
-5. Observe that nothing happens
+1. Log in
+2. Click “Create Questionnaire”
+3. Look for the option to add the first question
 
-**Device/Browser:** 
-MacBook Pro, Chrome 118
+**Device/Browser:**
+Windows laptop, Firefox 130
 ```
 
-## 🎓 Learning Objectives
+## 🧭 Learning Goals
 
-Through this exercise, you will:
-- Practice usability testing techniques
-- Learn to document and report usability issues effectively
-- Contribute to improving the user experience of a real application
-- Gain experience with GitHub issue tracking
+Through this first exercise, you will:
 
----
+* Learn to **observe and describe** usability issues in your own words
+* Practice **documenting findings** clearly and concretely
+* Gain a first experience with **systematic exploration** of a real app
+* Get familiar with **GitHub Issues** as a collaborative feedback tool
+* Start thinking about **how design and usability connect**
 
-**Course**: Usability Engineering  
-**Instructor**: Michael Achmann  
-**App URL**: [wevs.me](https://wevs.me)
+
+**Course:** Usability Engineering (WiSe 25/26)
+**Instructor:** Michael Achmann-Denkler
+**App URL:** [wevs.me](https://wevs.me)
